@@ -1,0 +1,48 @@
+body {
+        font-family: Arial, sans-serif;
+    }
+    .login-container {
+        max-width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"],
+    input[type="button"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type="submit"],
+    input[type="button"] {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover,
+    input[type="button"]:hover {
+        background-color: #007bff;
+        /* Style for the "Forgot Password?" button */
+/* Style for the "Forgot Password?" button */
+/* Style for the "Forgot Password?" link */
+#forgotPasswordLink {
+    color: #4CAF50; /* Green text color */
+    text-decoration: none; /* Remove default underline */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* On hover, add a bottom border to create an underline effect */
+#forgotPasswordLink:hover {
+    border-bottom: 1px solid #4CAF50; /* Green bottom border */
+    file:///path/to/your/folder/password_C:/GARCIA,JEFFREY/password_recovery.html
+
+}

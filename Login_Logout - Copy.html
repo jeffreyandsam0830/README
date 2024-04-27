@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)file:///C:/GARCIA,JEFFREY/log.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login/Logout</title>
+<link rel="stylesheet" href="login.css">
+<link rel="icon" href="image/logo.jpg">
+    <header>
+        <img src="C:\GARCIA,JEFFREY\image\logo.jpg" alt="company logo" height="100">
+<style>
+
+    
+</style>
+</head>
+<body>
+
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" id="username" required="" value="">
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" id="password" required="" value="">
+
+        <input type="submit" value="Login">
+    </form>
+
+    <div id="logoutContainer" style="display: none;">
+        <p>Welcome to my website <span id="loggedInUser"></span>!</p>
+        <input type="button" value="Logout" id="logoutButton">
+    </div>
+    
+    <div>
+        <div>
+    <a href="#" id="forgotPasswordLink">Forgot Password?</a>
+</div>
+
+    </div>
+</div>
+<script src="login.js"></script> <!-- Link to external JavaScript file -->
+
+</body>
+</html>

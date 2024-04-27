@@ -1,0 +1,101 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main container styles */
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Product button styles */
+.product-btn {
+   border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #000fff;
+    color: #fff;
+    border: ;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/* Product button hover effect */
+.product-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Cart styles */
+#cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Checkout button styles */
+#checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Checkout button hover effect */
+#checkout-btn:hover {
+    background-color: #218838;
+}
+
+/* Receipt styles */
+#receipt {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Receipt content styles */
+#receipt-content {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Receipt item styles */
+.receipt-item {
+    margin-bottom: 10px;
+}
+
+/* Receipt item name styles */
+.receipt-item-name {
+    font-weight: bold;
+}
+
+/* Receipt item price styles */
+.receipt-item-price {
+    float: right;
+}
