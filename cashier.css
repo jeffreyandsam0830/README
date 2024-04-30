@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100%; /* Make the container full height of the viewport */
+    flex-direction: column; /* Stack items vertically */
+}
+
+/* Resetting default margin and padding */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Rest of your CSS styles */
+
+
+/* Styling header */
+header {
+    background-color: #6c14d0; /* Violet background */
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+header img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
+
+/* Styling product buttons container */
+#products {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to next line */
+}
+
+/* Styling each product button */
+.product-btn {
+    border: none;
+    background: none;
+    margin: 0 10px 10px 0; /* Margin between each product button */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    flex: 0 0 calc(33.33% - 20px); /* Adjust width of each product button */
+    max-width: calc(33.33% - 20px); /* Adjust maximum width of each product button */
+    /* You can adjust the percentage width to fit more or fewer buttons in a row */
+}
+
+.product-btn img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+
+/* Styling cart and receipt containers */
+#cart,
+#receipt {
+    margin: 0 auto; /* Center the container horizontally */
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Adjust max-width as needed */
+}
+
+/* Alternatively, you can use the following to center both horizontally and vertically */
+/*
+#cart,
+#receipt {
+    margin: 0 auto; 
+    width: 80%; 
+    max-width: 600px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+/* Styling cart */
+#cart {
+    margin-top: 20px;
+    border-top: 2px solid #6c14d0; /* Violet border */
+    padding-top: 20px;
+}
+
+#cart h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+#checkout-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6c14d0; /* Violet background */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styling receipt */
+#receipt {
+    margin-top: 20px;
+    border-top: 2px solid #6c14d0; /* Violet border */
+    padding-top: 20px;
+}
+
+#receipt h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#receipt-content {
+    margin-top: 10px;
+}
